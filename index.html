@@ -14,7 +14,6 @@
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
 
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="vendor/materialize/css/ghpages-materialize.css">
         <link rel="stylesheet" href="vendor/materialize/css/materialize.css">
 
     </head>
@@ -26,15 +25,17 @@
 
         <!--CONTENT-->
         <!--HEADER-->
-        <div class="parallax-container" style="height:60vh !important">
-            <div class="parallax"><img src="img/me.jpg"></div>
+        <div class="parallax-container" style="height: 60vh !important; min-width:100% !important;">
+            <div class="parallax"><img style="min-width:100% !important; width:auto !important;" src="img/me.jpg"></div>
         </div>
         <h2 class="grey-text text-darken-3 center-align valign">Hi! I am Andrii Pavlenko</h2>
         <h5 class="grey-text text-lighten-2 center-align pin-bottom">and I'm a Software Engineer</h5>
+        <!--ENDHEADER-->
 
         <div class="divider"></div>
 
-        <section class="section grey-text text-darken-2">
+        <!--WELCOME-->
+        <section id="welcome" class="section scrollspy">
             <h3 class="center-align">shortly about me</h3>
             <div class="row">
                 <div class="col s12 m4 l3 offset-m2 offset-l3">
@@ -51,7 +52,7 @@
                         <div class="card-content">
                             <p class="card-title">country</p>
                             I am from Ukraine, from the city named Ternopil
-                            <a class="grey-text" href="#map">find it</a>
+                            <a class="text-accent-1" href="#map">find it</a>
                         </div>
                     </div>
                 </div>
@@ -77,10 +78,12 @@
                 </div>
             </div>
         </section>
+        <!--ENDWELCOME-->
 
         <div class="divider"></div>
 
-        <section class="section grey-text text-darken-2">
+        <!--UNIVERSITIES-->
+        <section id="universities" class="section scrollspy grey-text text-darken-2">
             <h3 class="center-align">universities</h3>
             <div class="row">
                 <div class="col s12 m8 l6 offset-m2 offset-l3">
@@ -108,6 +111,7 @@
                 </div>
             </div>
         </section>
+        <!--ENDUNIVERSITIES-->
 
         <div class="divider"></div>
 
@@ -117,22 +121,26 @@
 
         <div class="divider"></div>
 
-        <section class="section grey-text text-darken-2">
+        <!--CREATIVITY-->
+        <section id="creativity" class="section scrollspy grey-text text-darken-2">
             <h3 class="center-align">creativity</h3>
             <div class="row">
                 <div class="col s12 m4 l3 offset-m2 offset-l3">
                     <div class="card">
                         <div class="card-content">
                             <p class="card-title">drawings</p>
-                            for me it is really relaxing to make some drawings on my digitizer<br>
-                            I am not a good artist, but as for me, the process itself is enjoyable<br>
-                            <a class="grey-text" href="#drawings">just take a look</a>
+                            for me it is really relaxing to make some drawings on my digitizer.
+                            I am not a good artist, but as for me, the process itself is enjoyable
+                            <br><a class="text-accent-1" href="#drawings">just take a look</a>
                         </div>
                     </div>
                     <div class="card">
                         <div class="card-content">
                             <p class="card-title">other</p>
-                            I also like
+                            I also like to play Airsoft,
+                            we have a bunch of nice locations in Ternopil and near,
+                            like open-casts, old factories and nice forests
+                            <br><a class="text-accent-1" href="#other">here is more</a>
                         </div>
                     </div>
                 </div>
@@ -140,28 +148,55 @@
                     <div class="card">
                         <div class="card-content">
                             <p class="card-title">games</p>
-                            as for my passion to develop some games, it is same as the drawing<br>
-                            the process of creating a game is much more joyful than just playing a game<br>
-                            of course, game development is also a hard process, which involves not only creativity, but also a huge amount of analythics<br>
-                            but i always can ask my friend to help me with mechanics, because he's a game designer<br>
-                            <a class="grey-text" href="#games">find more</a>
+                            as for my passion to develop some games, it is same as the drawing.
+                            The process of creating a game is much more joyful than just playing a game.
+                            Of course, game development is also a hard process, which involves not only creativity, but also a huge amount of analythics,
+                            but i always can ask my friend to help me with mechanics, because he's a game designer.
+                            I also have fun participating in game jams. Especially the "One Hour Game Jam", can you imagine sich things could be made in one hour?
+                            <br><a class="text-accent-1" href="#games">find more</a>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-
+        <!--ENDHOBBIES-->
 
         <!--ENDCONTENT-->
 
     </body>
-    <footer>
+    <footer class="page-footer">
+
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">`Meet Me`</h5>
+                    <p class="grey-text text-lighten-4">simple Webpage for Internet Technologies course<br>of Opole University of Technology<br>only static content is present now for the sake of github.io hosting</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">components</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#materialize">materialize css</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#jquery">jquery</a></li>
+                        <li><a class="grey-text text-lighten-3">other</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                "Meet Me Page" by Andrii Pavlenko © 2017
+            </div>
+        </div>
+
+        <!--Get Jquery from CDN or use local one-->
         <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <!--Init Plugins for jquery-->
         <script src="js/plugins.js"></script>
+        <!--Init Materialize-->
         <script src="vendor/materialize/js/init.js"></script>
         <script src="vendor/materialize/js/materialize.min.js"></script>
+        <!--Scripts for this instance-->
         <script src="js/main.js"></script>
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
