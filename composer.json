@@ -8,8 +8,5 @@
       "name": "Andrii Pavlenko",
       "email": "not-here@mail.com"
     }
-  ],
-  "require": {
-    "clnt/materialize": "dev-master"
-  }
+  ]
 }
