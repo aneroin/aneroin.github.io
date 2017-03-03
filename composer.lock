@@ -1,0 +1,66 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "7e3b93cdd0c5900476aa69c3017f9175",
+    "packages": [
+        {
+            "name": "clnt/materialize",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Clnt/materialize.git",
+                "reference": "a2ee114fd8aa74d1ec418bafe5258db133c4b3c7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Clnt/materialize/zipball/a2ee114fd8aa74d1ec418bafe5258db133c4b3c7",
+                "reference": "a2ee114fd8aa74d1ec418bafe5258db133c4b3c7",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alvin Wang",
+                    "email": "alvin7@gmail.com"
+                },
+                {
+                    "name": "Alan Chang"
+                },
+                {
+                    "name": "Alex Mark",
+                    "email": "ajmark@andrew.cmu.edu",
+                    "homepage": "http://ajmark.com"
+                },
+                {
+                    "name": "Kevin Louie"
+                }
+            ],
+            "description": "A modern responsive front-end framework based on Material Design",
+            "homepage": "http://dogfalo.github.io/materialize/index.html",
+            "keywords": [
+                "design",
+                "framework",
+                "front-end",
+                "material"
+            ],
+            "time": "2015-04-24 07:38:12"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "clnt/materialize": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

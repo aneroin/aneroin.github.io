@@ -1,0 +1,15 @@
+{
+  "name": "inshadow/meetme",
+  "description": "webpage about me",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Andrii Pavlenko",
+      "email": "not-here@mail.com"
+    }
+  ],
+  "require": {
+    "clnt/materialize": "dev-master"
+  }
+}
